@@ -7,9 +7,18 @@
 <p align="center">Notebooks da imersão da Alura em Agentes de IA com a API do Gemini</p>
 
 <h2>⚙️ Execução</h2>
-<p>Criar ambiente virtual</p>
-  <p>OBS.: Apenas necessário caso a execução seja fora do Colab ou Jupyter Notebook.</p>
+<ol>
+<li>Criar ambiente virtual executando o seguinte comando via terminal:</li>
 
-```python
+
+```
 py3 -m venv env
 ```
+
+<li>Acessar site <a href="https://aistudio.google.com/">Google API Studio</a> e clicar em Get API key</li>
+<li>Criar arquivo .env e adicionar chave da API do Google Gemini</li>
+
+```
+GEMINI_API_KEY = '<chave_api>'
+```
+</ol>
